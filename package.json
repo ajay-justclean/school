@@ -1,0 +1,62 @@
+{
+  "name": "school",
+  "version": "3.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:format": "prettier",
+    "lint:fix": "eslint --fix --ignore-path .gitignore .",
+    "start": "node ./bin/www",
+    "start-dev": "nodemon ./bin/www",
+    "test": "jest"
+  },
+  "engines": {
+    "node": "^8 || ^10"
+  },
+  "dependencies": {
+    "@newrelic/native-metrics": "^4.1.0",
+    "@sendgrid/mail": "^6.4.0",
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "glob": "^7.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^2.1.1",
+    "memory-cache": "^0.2.0",
+    "mocha": "^6.2.0",
+    "moment": "^2.24.0",
+    "mysql2": "^1.6.5",
+    "newrelic": "^5.10.0",
+    "passport": "^0.4.0",
+    "passport-anonymous": "^1.0.1",
+    "passport-headerapikey": "^1.1.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "randomstring": "^1.1.5",
+    "sequelize": "^5.10.1",
+    "supertest": "^4.0.2",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "compression": "^1.7.4",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "express-rate-limit": "^5.0.0",
+    "helmet": "^3.21.2",
+    "jest": "^24.9.0",
+    "morgan": "^1.9.1",
+    "prettier": "^1.18.2"
+  },
+  "description": "school",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC"
+}

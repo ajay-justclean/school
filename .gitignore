@@ -1,0 +1,9 @@
+node_modules/
+.idea/
+justclean_admin.iml
+package-lock.json
+logs/
+uploads/
+/.env
+newrelic_agent.log
+/database

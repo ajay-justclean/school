@@ -1,0 +1,29 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "standard", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "no-unused-vars": [
+      "error",
+      { "vars": "all",
+        "args": "after-used",
+        "ignoreRestSiblings": false
+      }
+    ]
+  },
+  "plugins": ["prettier"]
+}
